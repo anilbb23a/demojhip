@@ -546,6 +546,13 @@
                 </configuration>
             </plugin>
             <!-- jhipster-needle-maven-add-plugin -->
+            
+                    <plugin>
+				        <groupId>com.google.cloud.tools</groupId>
+				        <artifactId>appengine-maven-plugin</artifactId>
+				        <version>1.2.1</version>
+				    </plugin>
+ 
         </plugins>
         <pluginManagement>
             <plugins>
@@ -863,12 +870,7 @@
                         </configuration>
                     </plugin>
                     
-                    <plugin>
-				        <groupId>com.google.cloud.tools</groupId>
-				        <artifactId>appengine-maven-plugin</artifactId>
-				        <version>1.2.1</version>
-				    </plugin>
-                    
+                   
                 </plugins>
             </build>
             <properties>
